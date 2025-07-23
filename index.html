@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Future Ancestors Survey</h1>
+    <p id="description"> This is a survey form to collect feedback on your experience in Future Ancestors!</p> 
+<form id="survey-form">
+
+<label id="name-label" for="name">First and Last Name
+    <input id="name" type="text" placeholder="Type name" required>
+  </label>
+  
+ <label id="email-label" for="email">Email address
+    <input id="email" type="email" placeholder="Type email" required>
+  </label>
+  
+<label id="number-label" for="number">Enter your number
+    <input type="number" id="number" min="1" max="120" placeholder="Type number"required>
+  </label>
+
+<select id="dropdown">
+  <option></option>
+  <option></option>
+  </select>
+
+  <label id="gender-label" for="gender"> Gender you identify by
+    <input type="radio" value="female" name="gender""></input>
+      <input type="radio" value="male" name="gender"></input> 
+
+  </label>
+
+ 
+
+  <input type="checkbox" value="summer" name="season"></input>
+    <input type="checkbox" value="spring" name="season"></input>
+
+
+<textarea>
+
+  </textarea> 
+
+  <input type="submit" id="submit"></input>
+
+
+</form>
+</body>
+
+</html> 
